@@ -1,10 +1,11 @@
 public class Principal{
     public static void main (String[] args) {
-        Empregado emp1 = new Empregado();
-        emp1.adicionarHrs (8);
-        emp1.adicionarHrs (10);
-        System.out.println(emp1.totalHrs);
-
-
+        Aluno a1 = new Aluno();
+        a1.setNome ("Daniel");
+        a1.setMedia (7);
+        System.out.println(a1.getNome());
+        System.out.println(a1.getMedia());
+        Lampada1 l1 = new Lampada1();
+        l1.acender();
     }
 }
